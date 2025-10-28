@@ -6,7 +6,8 @@ def add_expense():
 
     with open("expenses.txt", "a") as file:
         file.write(f"{category},{amount}\n")
-
+        
+    print("Expense feature updated")
     print("Expense added successfully!")
 
 if __name__ == "__main__":
